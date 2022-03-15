@@ -1,0 +1,17 @@
+{
+    "tituloDevocional": "Ande com Jesus",
+    "textoVersiculo" : "Lorem ipsum",
+    "textoDevocional" : "Lorem ipsum",
+    "textoOracao" : "Lorem ipsum",
+    "dataPostagem" : "20/04/2022",
+    "horaPostagem" : "07:30"
+}
+
+{
+    "tituloDevocional": "Firme na Tempestade",
+    "textoVersiculo" : "Lorem ipsum",
+    "textoDevocional" : "Lorem ipsum",
+    "textoOracao" : "Lorem ipsum",
+    "dataPostagem" : "02/04/2022",
+    "horaPostagem" : "11:30"
+}

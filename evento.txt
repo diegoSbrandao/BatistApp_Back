@@ -1,0 +1,21 @@
+{
+    "nome": "Juventude com Jesus",
+    "local" : "Rua Batista, 02",
+    "data" : "20/04/2022",
+    "horario" : "20:00"
+}
+
+{
+    "nome": "Tarde com Bíblia",
+    "local" : "Rua Batista, 02",
+    "data" : "22/04/2022",
+    "horario" : "19:30"
+}
+
+{
+    "nome": "Grupo de Oração",
+    "local" : "Rua Batista, 02",
+    "data" : "30/04/2022",
+    "horario" : "20:00"
+}
+
