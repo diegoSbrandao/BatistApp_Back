@@ -1,13 +1,13 @@
 package com.apprest.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import java.io.Serializable;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.io.Serializable;
-import java.util.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,27 +22,27 @@ public class Devocional implements Serializable {
     private long id;
 
     @NotNull(message = "Campo Titulo Devocional é de preencimento obrigatório.")
-    @Column(name = "nm_titulodevocional")
+    @Column(name = "nm_titulo_Devocional")
     private String tituloDevocional;
 
     @NotNull(message = "Campo Texto Versiculo é de preencimento obrigatório.")
-    @Column(name = "ds_textoversiculo")
+    @Column(name = "ds_texto_Versiculo")
     private String textoVersiculo;
 
     @NotNull(message = "Campo Texto Devocional é de preencimento obrigatório.")
-    @Column(name = "ds_textodevocional")
+    @Column(name = "ds_texto_Devocional")
     private String textoDevocional;
 
     @NotNull(message = "Campo Texto Oracao é de preencimento obrigatório.")
-    @Column(name = "ds_textooracao")
+    @Column(name = "ds_texto_Oracao")
     private String textoOracao;
 
     @NotNull(message = "Campo Data da Postagem é de preencimento obrigatório.")
-    @Column(name = "dt_dataPostagem")
+    @Column(name = "dt_data_Postagem")
     private String dataPostagem;
 
     @NotNull(message = "Campo Hora da Postagem é de preencimento obrigatório.")
-    @Column(name = "dt_horaPostagem")
+    @Column(name = "dt_hora_Postagem")
     private String horaPostagem;
 
 }

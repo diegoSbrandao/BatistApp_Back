@@ -6,7 +6,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.6.7</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.apprest</groupId>
     <artifactId>apprest</artifactId>
@@ -14,7 +13,7 @@
     <name>apprest</name>
     <description>AppRest</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>1.8</java.version>      
     </properties>
     <dependencies>
         <dependency>
@@ -58,8 +57,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
+    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -76,5 +75,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
@@ -13,7 +12,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name = "evento")
 public class Evento implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -31,11 +29,11 @@ public class Evento implements Serializable {
     private String local;
 
     @NotNull(message = "Campo data é de preencimento obrigatório.")
-    @Column(name = "dt_dataevento")
+    @Column(name = "dt_data_evento")
     private String data;
 
     @NotNull(message = "Campo horario é de preencimento obrigatório.")
-    @Column(name = "ds_horarioevento")
+    @Column(name = "ds_horario_evento")
     private String horario;
 
 }
