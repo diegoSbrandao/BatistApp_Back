@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  img {
+    height: 4rem;
+  }
+
+  .header {
+    justify-content: center;
+    height: 10%;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    padding-left: 1.2rem;
+    font-size: 2rem;    
+  }
