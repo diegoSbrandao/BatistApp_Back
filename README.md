@@ -10,4 +10,6 @@ Banco de dados: H2 database;<br>
 IDEA: Intellij.
 
 <br>
-Documentação na nuvem pelo heroku + swagger https://batistapp-api.herokuapp.com/swagger-ui/index.html<br> 
+Documentação na nuvem pelo heroku + swagger: https://batistapp-api.herokuapp.com/swagger-ui/index.html<br> 
+Documentação no Postman: [Postman](https://documenter.getpostman.com/view/20865959/UyxnDQBi)<br> 
+
