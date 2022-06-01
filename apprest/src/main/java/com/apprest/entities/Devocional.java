@@ -48,14 +48,13 @@ public class Devocional implements Serializable {
     private String textoOracao;
 
     @NotNull(message = "Campo Data da Postagem é de preencimento obrigatório.")
-    @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
     @Column(name = "dt_data_Postagem")
-    @Temporal(value=TemporalType.DATE)
+    @JsonFormat(pattern="dd-MM-yyyy")
     private Date dataPostagem;
 
     @NotNull(message = "Campo Hora da Postagem é de preencimento obrigatório.")
-    @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
     @Column(name = "dt_hora_Postagem")
-    private String horaPostagem;
+    @JsonFormat(pattern="HH:mm:ss")
+    private Date horaPostagem;
     
 }

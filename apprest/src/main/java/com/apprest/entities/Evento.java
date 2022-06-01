@@ -1,6 +1,7 @@
 package com.apprest.entities;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -37,13 +39,13 @@ public class Evento implements Serializable {
     private String local;
 
     @NotNull(message = "Campo data é de preencimento obrigatório.")
-    @NotBlank(message = "Campo nome é de preencimento obrigatório.")
     @Column(name = "dt_data_evento")
-    private String data;
+    @JsonFormat(pattern="dd-MM-yyyy")
+    private Date data;
 
     @NotNull(message = "Campo horario é de preencimento obrigatório.")
-    @NotBlank(message = "Campo nome é de preencimento obrigatório.")
     @Column(name = "ds_horario_evento")
-    private String horario;
+    @JsonFormat(pattern="HH:mm:ss")
+    private Date horario;
 
 }
