@@ -29,22 +29,22 @@ public class Devocional implements Serializable {
 
     @NotNull(message = "Campo Titulo Devocional é de preencimento obrigatório.")
     @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
-    @Column(name = "nm_titulo_Devocional")
+    @Column(name = "nm_titulo_Devocional", length = 255)
     private String tituloDevocional;
 
     @NotNull(message = "Campo Texto Versiculo é de preencimento obrigatório.")
     @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
-    @Column(name = "ds_texto_Versiculo")
+    @Column(name = "ds_texto_Versiculo", length = 1000)
     private String textoVersiculo;
 
     @NotNull(message = "Campo Texto Devocional é de preencimento obrigatório.")
     @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
-    @Column(name = "ds_texto_Devocional")
+    @Column(name = "ds_texto_Devocional", length = 2000)
     private String textoDevocional;
 
     @NotNull(message = "Campo Texto Oracao é de preencimento obrigatório.")
     @NotBlank(message = "Campo Titulo Devocional é de preencimento obrigatório.")
-    @Column(name = "ds_texto_Oracao")
+    @Column(name = "ds_texto_Oracao", length = 1000)
     private String textoOracao;
 
     @NotNull(message = "Campo Data da Postagem é de preencimento obrigatório.")
