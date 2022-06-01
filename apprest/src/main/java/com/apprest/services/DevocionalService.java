@@ -3,9 +3,12 @@ package com.apprest.services;
 import com.apprest.entities.Devocional;
 import com.apprest.handlerexception.EntityNotFoundException;
 import com.apprest.repositories.DevocionalRepository;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
