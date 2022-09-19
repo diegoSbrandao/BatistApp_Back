@@ -1,6 +1,8 @@
 # BatistApp
 Projeto de Tcc
 
+<img align="left" src="https://wakatime.com/badge/github/DSB88/BatistApp_Back.svg"/>
+<br>
 
 Api Rest criada para o TCC;<br>
 Usando o Design Pattern: MVC(Model View Controller);<br>
