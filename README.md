@@ -1,6 +1,12 @@
 # BatistApp
 Projeto de Tcc
 
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+
+
+![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=main)
+
+
 <img align="left" src="https://wakatime.com/badge/github/DSB88/BatistApp_Back.svg"/>
 <br>
 
